@@ -1,0 +1,104 @@
+.navbar-brand::first-letter{
+    color: orange;
+}
+.bk::first-letter{
+    color: orange;
+}
+.bk1{
+    color: orange;
+}
+.sect1{
+    background-image: url('./images/background\ img.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sect2{
+    background-color: beige;
+    height: 100%;
+}
+.bot{
+    background-color: white;
+}
+.bot:hover{
+    color: white;
+    background-color: #ffc107;
+    transition: 0.5s;
+}
+.bkn{
+    background-color: #ffa500;
+}
+.bkn:hover{
+    background-color: #ffa500;
+}
+.sect4{
+    background-color: beige;
+}
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Spain";}
+    20%{content: "United States";}
+    30%{content: "China";}
+    40%{content: "India";}
+    50%{content: "Pakistan";}
+    60%{content: "Italy";}
+    70%{content: "Turkey";}
+    80%{content: "Mexico";}
+    90%{content: "Germany";}
+    100%{content: "United kingdom";}
+} 
+.checked {
+    color: orange;
+}
+.card
+{
+    box-shadow: 0px 5px 5px -6px black;
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+.m{
+    height: 230px;
+}
+.sect6{
+    background-color: beige;
+    height: 75vh;
+}
+.sect7{
+    background-color: beige;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #ffa500;
+}
